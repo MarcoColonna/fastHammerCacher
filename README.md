@@ -1,5 +1,15 @@
 # fastHammerCacher
 
+This repository has been created with the support of Artificial Intelligence to produce a minimal example of a optimized Caching of the Hammer Histograms I use in my work.
+The code you see here is NOT the one I use since that is more tailed for my specific porpuses, and work in a larger module I use.
+In case you see mistakes around keep this in mind and contact me so I fix them (I run the example and in my env it works as expected, but please tell me if anything does not work).
+
+This code (and the example that you can run) are just meant to show this method mainly to the other people using Hammer.
+
+Starting from this repo it (should) be simple to embed this method in a py/c++/... environment to make a fit and improve the performances of you fits/toys/studies/...
+
+---
+
 A minimal, standalone example of how to make Hammer reweighting about 200× faster
 when you ask for the same histogram at many form-factor (FF) / Wilson-coefficient (WC) points,
 as a fit does. The only dependencies are the Hammer python bindings and numpy (no redist, pyhf or ROOT).
